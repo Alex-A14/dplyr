@@ -361,7 +361,7 @@ We've questioned the need for `do()` for quite some time, because it never felt 
       do(head(., 1))
     ```
   
-    This has been superseded `cur_data()` plus the more permissive `summarise()` 
+    This has been superseded by `cur_data()` plus the more permissive `summarise()` 
     which can now create multiple columns and multiple rows.
   
     ```{r}
